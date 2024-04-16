@@ -52,11 +52,10 @@ class TestDataset(Dataset):
         return len(self.imageFolderDataset.imgs)
 
 
-def test():
+def test(dataset_test):
     print("===> Loading testset")
     batch_size = 1
     transform = transforms.ToTensor()
-    dataset_test = torchvision.datasets.ImageFolder(root="./mydata/test/Lytro/s1")
     test_set = TestDataset(image_folder_dataset=dataset_test, transform=transform)
     test_loader = DataLoader(test_set, batch_size=batch_size, shuffle=True, num_workers=0)
     area_ratio = 0.01
@@ -162,4 +161,4 @@ if __name__ == '__main__':
     dataset_test = torchvision.datasets.ImageFolder(root="./mydata/test/Lytro/s1")  # Lytro
     # dataset_test = torchvision.datasets.ImageFolder(root="./mydata/test/MFFW/s1")  # MFFW
     # dataset_test = torchvision.datasets.ImageFolder(root="./mydata/test/Natural/s1")  # Natural
-    test()
+    test(dataset_test)
