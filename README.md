@@ -5,7 +5,7 @@
 This package contains the source code which is associated with the following paper:
 
 [1] Kecheng Zheng, Juan Cheng, Yu Liu*, CCSR-Net: Unfolding coupled convolutional sparse representation for multi-focus image fusion, 6th Chinese Conference on Pattern Recognition and Computer Vision (PRCV), Xiamen, China, Oct 13-15, 2023, pp 285–297.
-The extended version is submitted to a journal for publication.
+The extended version is submitted to Information Fusion for publication.
 
 Edited by Kecheng Zheng and Yu Liu.   
 
@@ -44,4 +44,4 @@ Contact:
     Homepage: https://sites.google.com/site/yuliu316316; https://github.com/yuliu316316
 
 
-Last update: 16-April-2024
+Last update: 04-Dec-2024
